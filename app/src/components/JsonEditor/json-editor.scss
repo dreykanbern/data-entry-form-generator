@@ -1,0 +1,21 @@
+@import "@/assets/styles/mixins";
+
+.json-form {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  gap: 2rem;
+  &__btn {
+    justify-content: center;
+    width: 30%;
+  }
+  &__editor {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.vue-ace-editor {
+  height: 90vh;
+  max-height: max-content;
+  font-size: 1.6rem;
+}

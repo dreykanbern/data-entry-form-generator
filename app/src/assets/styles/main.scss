@@ -1,0 +1,62 @@
+@import "mixins";
+
+// Сброс стилей
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Основные стили
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+// Стили ссылок
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+  }
+}
+
+// Стили заголовков
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+
+// Стили списков
+ul, ol {
+  margin-left: 2rem;
+}
+
+// Стили таблиц
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: .5rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  text-align:left;
+}

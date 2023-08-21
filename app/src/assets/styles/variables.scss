@@ -1,0 +1,13 @@
+//Container
+$container-max-width: 1200px;
+$container-padding: 15px;
+
+:root {
+  font-size: 62.5%; // 1rem = 10px
+  --primary-color: rgba(158, 92, 255, 1);
+  --primary-color-dark: rgba(118, 24, 255, 1);
+  --secondary-color: rgba(255, 195, 199, 1);
+  --secondary-color-dark: rgba(255, 140, 148, 1);
+  --text-color: #333;
+  --background-color: #fff;
+}
