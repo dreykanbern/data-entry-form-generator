@@ -1,0 +1,27 @@
+# Файлы macOS
+.DS_Store
+
+# Зависимости
+node_modules
+
+# Файлы сборки
+/dist
+
+# Локальные файлы среды
+.env.local
+.env.*.local
+
+# Файлы журнала
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Каталоги и файлы редактора
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
